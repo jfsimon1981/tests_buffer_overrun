@@ -28,7 +28,7 @@ int main() {
   application_title();
   char c1[11] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '\0'};
   char c2[11] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', '\0'};
-  check("c1 & c2 at initializaion:\n", c1, c2);
+  check("c1 & c2 at initialisation:\n", c1, c2);
   // Writing bassed arrays ends.
   c1[-5] = '7';  // Writing digit 7 into c1 underrunned
                  // probably goes into c2.
