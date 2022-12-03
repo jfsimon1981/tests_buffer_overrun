@@ -1,7 +1,7 @@
 # tests_buffer_overrun
-- (1) C program to see the effect of buffers overrun
+- (1) C program to see the effect of buffers overrun on stack
 
-(1) Buffer under and overruns
+(1) Buffer under and overruns on stack
 
 In most applications, buffer overruns can be quite subtle, and would probably result from dereferencing a pointer with calculated offset, or function call result, or similar causes, which compiler woulnd't be able to preemptively check.
 
